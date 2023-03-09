@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75FF70FB29B955F300D64C34 /* DryverrCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF70FA29B955F300D64C34 /* DryverrCarApp.swift */; };
+		75FF70FD29B955F300D64C34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF70FC29B955F300D64C34 /* ContentView.swift */; };
+		75FF70FF29B955F800D64C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FF70FE29B955F800D64C34 /* Assets.xcassets */; };
+		75FF710229B955F800D64C34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FF710129B955F800D64C34 /* Preview Assets.xcassets */; };
+		75FF710429B955F800D64C34 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF710329B955F800D64C34 /* Persistence.swift */; };
+		75FF710729B955F800D64C34 /* DryverrCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75FF710529B955F800D64C34 /* DryverrCar.xcdatamodeld */; };
+		75FF711129B955F800D64C34 /* DryverrCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF711029B955F800D64C34 /* DryverrCarTests.swift */; };
+		75FF711B29B955F800D64C34 /* DryverrCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF711A29B955F800D64C34 /* DryverrCarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75FF710D29B955F800D64C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FF70EF29B955F300D64C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FF70F629B955F300D64C34;
+			remoteInfo = DryverrCar;
+		};
+		75FF711729B955F800D64C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FF70EF29B955F300D64C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FF70F629B955F300D64C34;
+			remoteInfo = DryverrCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75FF70F729B955F300D64C34 /* DryverrCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DryverrCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FF70FA29B955F300D64C34 /* DryverrCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryverrCarApp.swift; sourceTree = "<group>"; };
+		75FF70FC29B955F300D64C34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75FF70FE29B955F800D64C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75FF710129B955F800D64C34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75FF710329B955F800D64C34 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		75FF710629B955F800D64C34 /* DryverrCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DryverrCar.xcdatamodel; sourceTree = "<group>"; };
+		75FF710C29B955F800D64C34 /* DryverrCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DryverrCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FF711029B955F800D64C34 /* DryverrCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryverrCarTests.swift; sourceTree = "<group>"; };
+		75FF711629B955F800D64C34 /* DryverrCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DryverrCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FF711A29B955F800D64C34 /* DryverrCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryverrCarUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75FF70F429B955F300D64C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FF710929B955F800D64C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FF711329B955F800D64C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75FF70EE29B955F300D64C34 = {
+			isa = PBXGroup;
+			children = (
+				75FF70F929B955F300D64C34 /* DryverrCar */,
+				75FF710F29B955F800D64C34 /* DryverrCarTests */,
+				75FF711929B955F800D64C34 /* DryverrCarUITests */,
+				75FF70F829B955F300D64C34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75FF70F829B955F300D64C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FF70F729B955F300D64C34 /* DryverrCar.app */,
+				75FF710C29B955F800D64C34 /* DryverrCarTests.xctest */,
+				75FF711629B955F800D64C34 /* DryverrCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FF70F929B955F300D64C34 /* DryverrCar */ = {
+			isa = PBXGroup;
+			children = (
+				75FF70FA29B955F300D64C34 /* DryverrCarApp.swift */,
+				75FF70FC29B955F300D64C34 /* ContentView.swift */,
+				75FF70FE29B955F800D64C34 /* Assets.xcassets */,
+				75FF710329B955F800D64C34 /* Persistence.swift */,
+				75FF710529B955F800D64C34 /* DryverrCar.xcdatamodeld */,
+				75FF710029B955F800D64C34 /* Preview Content */,
+			);
+			path = DryverrCar;
+			sourceTree = "<group>";
+		};
+		75FF710029B955F800D64C34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75FF710129B955F800D64C34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75FF710F29B955F800D64C34 /* DryverrCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				75FF711029B955F800D64C34 /* DryverrCarTests.swift */,
+			);
+			path = DryverrCarTests;
+			sourceTree = "<group>";
+		};
+		75FF711929B955F800D64C34 /* DryverrCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75FF711A29B955F800D64C34 /* DryverrCarUITests.swift */,
+			);
+			path = DryverrCarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75FF70F629B955F300D64C34 /* DryverrCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FF711E29B955F800D64C34 /* Build configuration list for PBXNativeTarget "DryverrCar" */;
+			buildPhases = (
+				75FF70F329B955F300D64C34 /* Sources */,
+				75FF70F429B955F300D64C34 /* Frameworks */,
+				75FF70F529B955F300D64C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DryverrCar;
+			productName = DryverrCar;
+			productReference = 75FF70F729B955F300D64C34 /* DryverrCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75FF710B29B955F800D64C34 /* DryverrCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FF712129B955F800D64C34 /* Build configuration list for PBXNativeTarget "DryverrCarTests" */;
+			buildPhases = (
+				75FF710829B955F800D64C34 /* Sources */,
+				75FF710929B955F800D64C34 /* Frameworks */,
+				75FF710A29B955F800D64C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FF710E29B955F800D64C34 /* PBXTargetDependency */,
+			);
+			name = DryverrCarTests;
+			productName = DryverrCarTests;
+			productReference = 75FF710C29B955F800D64C34 /* DryverrCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75FF711529B955F800D64C34 /* DryverrCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FF712429B955F800D64C34 /* Build configuration list for PBXNativeTarget "DryverrCarUITests" */;
+			buildPhases = (
+				75FF711229B955F800D64C34 /* Sources */,
+				75FF711329B955F800D64C34 /* Frameworks */,
+				75FF711429B955F800D64C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FF711829B955F800D64C34 /* PBXTargetDependency */,
+			);
+			name = DryverrCarUITests;
+			productName = DryverrCarUITests;
+			productReference = 75FF711629B955F800D64C34 /* DryverrCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75FF70EF29B955F300D64C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					75FF70F629B955F300D64C34 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					75FF710B29B955F800D64C34 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 75FF70F629B955F300D64C34;
+					};
+					75FF711529B955F800D64C34 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 75FF70F629B955F300D64C34;
+					};
+				};
+			};
+			buildConfigurationList = 75FF70F229B955F300D64C34 /* Build configuration list for PBXProject "DryverrCar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75FF70EE29B955F300D64C34;
+			productRefGroup = 75FF70F829B955F300D64C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75FF70F629B955F300D64C34 /* DryverrCar */,
+				75FF710B29B955F800D64C34 /* DryverrCarTests */,
+				75FF711529B955F800D64C34 /* DryverrCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75FF70F529B955F300D64C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FF710229B955F800D64C34 /* Preview Assets.xcassets in Resources */,
+				75FF70FF29B955F800D64C34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FF710A29B955F800D64C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FF711429B955F800D64C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75FF70F329B955F300D64C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FF710429B955F800D64C34 /* Persistence.swift in Sources */,
+				75FF70FD29B955F300D64C34 /* ContentView.swift in Sources */,
+				75FF70FB29B955F300D64C34 /* DryverrCarApp.swift in Sources */,
+				75FF710729B955F800D64C34 /* DryverrCar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FF710829B955F800D64C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FF711129B955F800D64C34 /* DryverrCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FF711229B955F800D64C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FF711B29B955F800D64C34 /* DryverrCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75FF710E29B955F800D64C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FF70F629B955F300D64C34 /* DryverrCar */;
+			targetProxy = 75FF710D29B955F800D64C34 /* PBXContainerItemProxy */;
+		};
+		75FF711829B955F800D64C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FF70F629B955F300D64C34 /* DryverrCar */;
+			targetProxy = 75FF711729B955F800D64C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75FF711C29B955F800D64C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75FF711D29B955F800D64C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75FF711F29B955F800D64C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DryverrCar/Preview Content\"";
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.DryverrCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75FF712029B955F800D64C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DryverrCar/Preview Content\"";
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.DryverrCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75FF712229B955F800D64C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.DryverrCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DryverrCar.app/DryverrCar";
+			};
+			name = Debug;
+		};
+		75FF712329B955F800D64C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.DryverrCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DryverrCar.app/DryverrCar";
+			};
+			name = Release;
+		};
+		75FF712529B955F800D64C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.DryverrCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DryverrCar;
+			};
+			name = Debug;
+		};
+		75FF712629B955F800D64C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me2software.DryverrCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DryverrCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75FF70F229B955F300D64C34 /* Build configuration list for PBXProject "DryverrCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FF711C29B955F800D64C34 /* Debug */,
+				75FF711D29B955F800D64C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FF711E29B955F800D64C34 /* Build configuration list for PBXNativeTarget "DryverrCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FF711F29B955F800D64C34 /* Debug */,
+				75FF712029B955F800D64C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FF712129B955F800D64C34 /* Build configuration list for PBXNativeTarget "DryverrCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FF712229B955F800D64C34 /* Debug */,
+				75FF712329B955F800D64C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FF712429B955F800D64C34 /* Build configuration list for PBXNativeTarget "DryverrCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FF712529B955F800D64C34 /* Debug */,
+				75FF712629B955F800D64C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75FF710529B955F800D64C34 /* DryverrCar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75FF710629B955F800D64C34 /* DryverrCar.xcdatamodel */,
+			);
+			currentVersion = 75FF710629B955F800D64C34 /* DryverrCar.xcdatamodel */;
+			path = DryverrCar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75FF70EF29B955F300D64C34 /* Project object */;
+}

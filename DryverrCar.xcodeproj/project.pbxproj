@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7517A91229B961DD0055667D /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7517A91129B961DD0055667D /* WelcomeScreenView.swift */; };
+		7517A91429B9620E0055667D /* SignInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7517A91329B9620E0055667D /* SignInScreenView.swift */; };
 		75FF70FB29B955F300D64C34 /* DryverrCarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF70FA29B955F300D64C34 /* DryverrCarApp.swift */; };
 		75FF70FD29B955F300D64C34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FF70FC29B955F300D64C34 /* ContentView.swift */; };
 		75FF70FF29B955F800D64C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FF70FE29B955F800D64C34 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7517A91129B961DD0055667D /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		7517A91329B9620E0055667D /* SignInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreenView.swift; sourceTree = "<group>"; };
 		75FF70F729B955F300D64C34 /* DryverrCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DryverrCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FF70FA29B955F300D64C34 /* DryverrCarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryverrCarApp.swift; sourceTree = "<group>"; };
 		75FF70FC29B955F300D64C34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7517A90E29B961370055667D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7517A91129B961DD0055667D /* WelcomeScreenView.swift */,
+				7517A91329B9620E0055667D /* SignInScreenView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		75FF70EE29B955F300D64C34 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +109,7 @@
 		75FF70F929B955F300D64C34 /* DryverrCar */ = {
 			isa = PBXGroup;
 			children = (
+				7517A90E29B961370055667D /* Screens */,
 				75FF70FA29B955F300D64C34 /* DryverrCarApp.swift */,
 				75FF70FC29B955F300D64C34 /* ContentView.swift */,
 				75FF70FE29B955F800D64C34 /* Assets.xcassets */,
@@ -261,8 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FF710429B955F800D64C34 /* Persistence.swift in Sources */,
+				7517A91229B961DD0055667D /* WelcomeScreenView.swift in Sources */,
 				75FF70FD29B955F300D64C34 /* ContentView.swift in Sources */,
 				75FF70FB29B955F300D64C34 /* DryverrCarApp.swift in Sources */,
+				7517A91429B9620E0055667D /* SignInScreenView.swift in Sources */,
 				75FF710729B955F800D64C34 /* DryverrCar.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

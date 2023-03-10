@@ -16,7 +16,9 @@ struct WelcomeScreenView: View {
                     Spacer()
                     Image(uiImage: #imageLiteral(resourceName: "onboard"))
                     Spacer()
+                    NavigationLink(destination: SignInScreenView()) {
                     PrimaryButton(title: "Get Started")
+                    }
                     
                     NavigationLink(
                         destination: SignInScreenView().navigationBarHidden(true),
@@ -33,6 +35,11 @@ struct WelcomeScreenView: View {
                                 .padding(.vertical)
                         })
                         .navigationBarHidden(true)
+                                Spacer()
+                            }
+                            .navigationBarTitle("Welcome Screen", displayMode: .inline)
+                            .navigationBarBackButtonHidden(false)
+                        }
                     
                     HStack {
                         Text("New around here? ")
@@ -43,8 +50,7 @@ struct WelcomeScreenView: View {
                 .padding()
             }
         }
-    }
-}
+   
 
 struct WelcomeScreenView_Previews: PreviewProvider {
     static var previews: some View {
